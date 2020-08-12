@@ -1,0 +1,28 @@
+{
+  "flag": 0,
+  "data": {
+    "order_total_num": 1,
+    "order_num": 1,
+    "yesterday_order_num": "小明",
+    "sell_total_num": "技术部",
+    "sell_num": "2019-07-01",
+    "yesterday_sell_num": 1,
+    "sell_total_price": 1,
+    "sell_price": 1,
+    "yesterday_sell_price": 1,
+    "wait_send_goods": 1,
+    "yesterday_wait_send_goods": 1,
+    "trade_success_total_num": 1,
+    "trade_success_num": 1,
+    "trade_cancel_total_num": 1,
+    "trade_cancel_num": 1,
+    "gross1_total_price": 1,
+    "gross1_price": 1,
+    "gross2_total_price": 1,
+    "gross2_price": 1,
+    "trade_success_rate": 1,
+    "gross_rate": 1,
+    "local_time": 1
+  },
+  "msg": "Error"
+}

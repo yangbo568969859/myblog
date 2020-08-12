@@ -1,0 +1,53 @@
+dd, dl, dt, h1, h2, h3, h4, p {
+  margin: 0;
+  font-size: 1em;
+}
+
+table, tbody, td, th, thead, tr {
+  border-collapse: collapse;
+}
+
+// body {
+//   background-color: #f2f2f2;
+// }
+
+.global-tabs {
+  padding: 0 15px;
+  background-color: #fff;
+  // border-bottom: 1px solid #ebedf0;
+  // border-bottom: 1px solid #eee; /*no*/
+}
+.tab-limit {
+  // max-width: 100px;
+  .van-tab {
+    max-width: 100px;
+  }
+}
+
+.red-color {
+  color: red;
+}
+.blue-color {
+  color: #005def;
+}
+
+.icon-13 {
+  font-size: 13px;
+}
+
+.fix-top-stack {
+  margin-top: -33px;
+}
+
+.balck-block {
+  height: 10px;
+  width: 100%;
+  background-color: #eee;
+  margin: 6px 0 0;
+}
+
+.van-nav-bar__left {
+  .van-icon-arrow-left {
+    color: #000;
+  }
+}

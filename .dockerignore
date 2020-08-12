@@ -1,0 +1,10 @@
+# npm
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+.yo-rc.json
+
+# folder
+middle_data_analysis

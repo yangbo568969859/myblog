@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>业务中台数据统计</title>
+    <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>欢迎使用爱琴嗨购业务中台数据统计。</strong>
+    </noscript>
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+      .init-box {
+        text-align:center;width:100%;height:50px;font-size:22px;color:#999;position:absolute;top:50%;margin-top:-25px
+      }
+      .init-img {
+        width: 50px; height: 50px; margin-right: 15px; vertical-align: middle;
+      }
+    </style>
+    <div id="app">
+      <div class="init-box">
+        <img src="https://img.aqsea.com/data/analysis/bg/loading.gif" alt="" class="init-img">
+        资源加载中...
+      </div>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
+<script>
+window.onload = function () {
+  window.viewportUnitsBuggyfill.init({
+    hacks: window.viewportUnitsBuggyfillHacks
+  });
+}
+</script>
