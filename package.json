@@ -12,7 +12,7 @@
     "production": "cross-env NODE_ENV=production vue-cli-service build"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "cssnano": "^4.1.10",
     "echarts": "^4.7.0",
